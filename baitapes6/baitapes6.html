@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrays = [1, 2, 3, 20, 25];
+
+    // 1. Tạo một mảng mới chứa các số lớn hơn 5 từ mảng ban đầu.
+
+    let newArray = arrays.filter(number => number > 5);
+    console.log(newArray);
+
+    // 2. Sử dụng arrow function và reduce để tính tổng các phần tử trong mảng.
+
+    let sum = arrays.reduce((previousValue, currentValue) => previousValue + currentValue, 0);
+    console.log(sum);
+
+    // 3. Kiểm tra 1 mảng có chứa số V hay không nếu có trả về V, không thì trả về "không tìm thấy".
+
+
+    let flag = (arrays, v) => {
+        if (arrays.includes(v)) {
+            return v;
+        }
+        return "Khong tim thay"
+    }
+    console.log(flag(arrays, 0));
+
+    // 4. Kiểm tra 1 mảng tất cả các phần tử trong mảng đó có lớn hơn 0 hay không?.
+
+    let check = (arrays) => {
+        return arrays.every(number => (number > 0));
+    }
+    console.log(check(arrays));
+
+
+    // 5. Tìm phần tử đầu tiên trong mảng lớn hơn 3.
+
+    let result = arrays.find(number => number > 3);
+    console.log(result)
+
+    // 6. Sử dụng destructuring với rest parameter để trích xuất phần tử đầu tiên vào biến "first" và các
+    // phần tử còn lại vào một mảng mới "rest".
+
+
+    let [number1, ...rest] = arrays;
+    console.log(number1);
+    console.log(rest);
+
+    // 7. Sử dụng destructuring để trích xuất các giá trị "name" và "age" từ một mảng chứa các đối tượng "person".
+
+    let array = [
+        {
+            name: "Tuan",
+            age: 18
+        },
+        {
+            name: "Hai",
+            age: 28
+        }
+    ]
+    for (const {name, age} of array) {
+        console.log(`Name: ${name}, Age: ${age}`);
+    }
+
+    // 8. Sử dụng Rest parameter và Spread operator để tạo một hàm nhận vào danh sách các số và trả về tổng của chúng.
+    function sumNumber(...array) {
+        let result = array.reduce((previousValue, currentValue) => previousValue + currentValue, 0);
+        return result;
+    }
+
+    console.log(sumNumber(...arrays))
+
+    // 9. Sử dụng Rest parameter để nhận vào một danh sách tên và trả về chuỗi định dạng "Welcome, [tên1], [tên2],
+    // [tên3], ..." cho tất cả các tên.
+
+
+
+    // 10. Tạo một đối tượng "book" với thuộc tính "title", "author" và "pages" bằng cách sử dụng Enhanced object
+    // literals. Đối tượng "book" cũng có phương thức "displayInfo" để in ra thông tin về sách.
+
+    let book = {
+        title: "Doraemon", author: "Tuan", pages: 10, displayInfo() {
+            console.log("Title " +this.title +" Tac gia "+ this.author +" So trang " + this.pages);
+        }
+    };
+    book.displayInfo();
+</script>
+</body>
+</html>
