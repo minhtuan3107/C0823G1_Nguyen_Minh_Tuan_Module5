@@ -77,14 +77,18 @@
     // 9. Sử dụng Rest parameter để nhận vào một danh sách tên và trả về chuỗi định dạng "Welcome, [tên1], [tên2],
     // [tên3], ..." cho tất cả các tên.
 
+    function Welcome(...name) {
+        return `Welcome, ${name}`
+    }
 
+    console.log(Welcome("Tuan", "Hai"))
 
     // 10. Tạo một đối tượng "book" với thuộc tính "title", "author" và "pages" bằng cách sử dụng Enhanced object
     // literals. Đối tượng "book" cũng có phương thức "displayInfo" để in ra thông tin về sách.
 
     let book = {
         title: "Doraemon", author: "Tuan", pages: 10, displayInfo() {
-            console.log("Title " +this.title +" Tac gia "+ this.author +" So trang " + this.pages);
+            console.log("Title " + this.title + " Tac gia " + this.author + " So trang " + this.pages);
         }
     };
     book.displayInfo();
