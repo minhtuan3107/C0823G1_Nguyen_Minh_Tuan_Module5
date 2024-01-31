@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "book number two",
+      "quantity": 100
+    }
+  ],
+  "todo": [
+    {
+      "id": 1,
+      "title": "book number two",
+      "flag": "true"
+    },
+    {
+      "id": "2",
+      "title": "3",
+      "flag": false
+    }
+  ]
+}

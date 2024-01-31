@@ -8,7 +8,7 @@ export default function Add() {
     return (
         <Formik initialValues={{
             id: 0,
-            title: "",
+            name: "",
             quantity: 0
         }}
                 validationSchema={Yup.object({
