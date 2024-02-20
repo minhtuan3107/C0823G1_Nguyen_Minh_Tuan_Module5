@@ -12,13 +12,11 @@ export default function Create() {
         <>
             <Formik initialValues={
                 {
-                    id: 0,
                     name: "",
                     age: 0
                 }
             }
                     validationSchema={Yup.object({
-                        id: Yup.number().required("Vui lòng nhập không được để trống"),
                         name: Yup.string().required("Vui lòng nhập không được để trống"),
                         age: Yup.number().required("Vui lòng nhập không được để trống")
                     })}
@@ -30,9 +28,7 @@ export default function Create() {
                         navigate('/')
                     }}>
                 <Form>
-                    <p>Nhập id</p>
-                    <Field name='id'/>
-                    <ErrorMessage name='id'/>
+
                     <p>Nhập tên</p>
                     <Field name='name'/>
                     <ErrorMessage name='name'/>

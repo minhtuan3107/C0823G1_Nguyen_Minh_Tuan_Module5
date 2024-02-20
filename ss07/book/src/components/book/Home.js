@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { getList, deleteBook } from "./BookService";
-import { Link } from "react-router-dom";
-import "./CustomModal.css"
+import React, {useEffect, useState} from "react";
+import {getList, deleteBook} from "./BookService";
+import {Link} from "react-router-dom";
+import "./customModal.css"
+
 export function Home() {
     const [books, setBooks] = useState([]);
     const [showModal, setShowModal] = useState(false);
@@ -37,17 +38,15 @@ export function Home() {
                                 onClick={() => {
                                     setSelectedBookId(book.id);
                                     setShowModal(true);
-                                }}
-                            >
+                                }}>
                                 Delete
                             </button>
                         </td>
                     </tr>
                 ))}
             </table>
-
             {showModal && (
-                <div >
+                <div>
                     <div className="custom-modal">
                         <p>Are you sure you want to delete this book?</p>
                         <div>

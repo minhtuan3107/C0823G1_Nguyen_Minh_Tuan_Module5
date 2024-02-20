@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 import axios from "axios";
 import {getList} from "./StudentService";
 import {Link} from "react-router-dom";
+import Modal from './Modal'; // Import modal component
 
 function Home() {
     const [students, setStudents] = useState([]);

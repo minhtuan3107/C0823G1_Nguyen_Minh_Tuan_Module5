@@ -7,12 +7,10 @@ export default function Add() {
     const back = useNavigate();
     return (
         <Formik initialValues={{
-            id: 0,
             name: "",
             quantity: 0
         }}
                 validationSchema={Yup.object({
-                    id: Yup.number().required("Khong duoc de trong"),
                     title: Yup.string().required("Khong duoc de trong"),
                     quantity: Yup.number().required("Khong duoc de trong")
                 })}
@@ -22,9 +20,6 @@ export default function Add() {
                     back('/')
                 }}>
             <Form>
-                <p>Nhap ID</p>
-                <Field name='id'/>
-                <ErrorMessage name='id'/>
                 <p>Nhap Title</p>
                 <Field name='title'/>
                 <ErrorMessage name='title'/>

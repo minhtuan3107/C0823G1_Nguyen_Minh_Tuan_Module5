@@ -1,0 +1,98 @@
+.custom-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-modal {
+    background: blue;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+/*table*/
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.formInput {
+    border: 50px;
+    width: 50%;
+    color: red;
+    background-color: blue;
+}
+.formInput {
+    max-width: 400px; /* Điều chỉnh độ rộng của form */
+    margin: auto; /* Để canh giữa form */
+    padding: 20px; /* Khoảng cách nội dung từ biên */
+    border: 1px solid #ccc; /* Viền form */
+    border-radius: 5px; /* Bo tròn các góc */
+}
+
+.formInput p {
+    margin: 10px 0; /* Khoảng cách giữa các đoạn văn bản và trường input */
+}
+
+.formInput input[type="text"],
+.formInput button {
+    width: 100%; /* Đảm bảo rằng trường input và nút có chiều rộng đầy đủ */
+    padding: 10px; /* Khoảng cách nội dung từ biên */
+    margin-bottom: 10px; /* Khoảng cách giữa các trường */
+    border: 1px solid #ccc; /* Viền input */
+    border-radius: 3px; /* Bo tròn các góc của input */
+}
+
+.formInput button {
+    background-color: #4CAF50; /* Màu nền cho nút */
+    color: white; /* Màu chữ cho nút */
+    border: none; /* Loại bỏ viền */
+    border-radius: 3px; /* Bo tròn các góc của nút */
+    padding: 15px 20px; /* Kích thước nút */
+    cursor: pointer; /* Con trỏ chuột thành pointer khi di chuột qua nút */
+}
+
+.formInput button:hover {
+    background-color: #45a049; /* Màu nền thay đổi khi di chuột qua nút */
+}
+.formInputNhap{
+    width: 100%;
+}
+.active {
+    color: red; /* Màu sắc của navlink khi được chọn */
+}

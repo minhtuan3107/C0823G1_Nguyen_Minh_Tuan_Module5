@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05181a50-e52d-4126-a559-74658d20d1d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../demoo/src/component/Add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoo/src/component/Edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoo/src/component/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoo/src/component/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoo/src/component/fruitService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demothi/src/components/Add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demothi/src/components/Edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demothi/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demothi/src/components/MusicService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demothimodule5/src/component/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demothimodule5/src/component/TeacherService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demothimodule5/src/component/modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-crud/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-crud/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-crud/src/components/student/Create.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-crud/src/components/student/Create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-crud/src/components/student/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-crud/src/components/student/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss07/book/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ss07/book/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss07/book/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss07/book/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss07/book/src/components/book/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss07/book/src/components/book/Add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss07/book/src/components/book/CustomModal.css" beforeDir="false" afterPath="$PROJECT_DIR$/../ss07/book/src/components/book/customModal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss07/book/src/components/book/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ss07/book/src/components/book/Home.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2cZAYajxhkWH5gIDs4FzCQpq0Yp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/MODULE5/crud-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05181a50-e52d-4126-a559-74658d20d1d0" name="Changes" comment="" />
+      <created>1708308775127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708308775127</updated>
+      <workItem from="1708308776591" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import {Link, NavLink, Route, Routes} from "react-router-dom";
-import Home from "./components/todo/Home";
-import Add from "./components/todo/Add";
+import {Home} from "./components/book/Home";
+import Add from "./components/book/Add";
 import Edit from "./components/book/Edit";
 
 

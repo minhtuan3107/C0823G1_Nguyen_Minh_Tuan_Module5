@@ -1,0 +1,76 @@
+{
+  "music": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "product": "typicode",
+      "time": "05:00",
+      "love": 0,
+      "status": 0
+    },
+    {
+      "id": 2,
+      "name": "zxc",
+      "product": "zxc",
+      "time": "zxc",
+      "love": 0,
+      "status": 0
+    },
+    {
+      "id": 3,
+      "name": "zxc1",
+      "product": "zxc1",
+      "time": "12:12",
+      "love": 0,
+      "status": 0
+    },
+    {
+      "id": 4,
+      "name": "1",
+      "product": "1",
+      "time": "12:11",
+      "love": 0,
+      "status": 1
+    },
+    {
+      "id": 5,
+      "name": "1",
+      "product": "1",
+      "time": "12:11",
+      "love": 0,
+      "status": 1
+    },
+    {
+      "id": 6,
+      "name": "1zc",
+      "product": "zxc",
+      "time": "12:11",
+      "love": 0,
+      "status": 0
+    },
+    {
+      "id": 7,
+      "name": "zxc",
+      "product": "zxc",
+      "time": "12:11",
+      "love": 0,
+      "status": 1
+    },
+    {
+      "id": 8,
+      "name": "zxc1",
+      "product": "zxc11",
+      "time": "11:11",
+      "love": 0,
+      "status": 1
+    },
+    {
+      "name": "zxc",
+      "product": "zxc",
+      "time": "11:12",
+      "status": 0,
+      "love": 0,
+      "id": 9
+    }
+  ]
+}

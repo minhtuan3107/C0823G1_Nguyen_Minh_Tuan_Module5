@@ -1,9 +1,10 @@
 {
   "posts": [
     {
-      "id": 2,
-      "title": "book number two",
-      "quantity": 100
+      "id": "2",
+      "name": "",
+      "quantity": "2",
+      "title": "2"
     }
   ],
   "todo": [
