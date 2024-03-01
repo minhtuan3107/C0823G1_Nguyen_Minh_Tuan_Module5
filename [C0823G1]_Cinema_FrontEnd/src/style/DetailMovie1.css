@@ -1,0 +1,57 @@
+/*picture big*/
+.mid {
+    float: left;
+    width: 60%;
+    height: 500px;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: black;
+}
+
+.left1 {
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: white;
+}
+
+.right {
+    float: right;
+    width: 20%;
+    height: 500px;
+    background-color: black;
+}
+
+.right1 {
+    float: right;
+    width: 20%;
+    height: 500px;
+    background-color: white;
+}
+
+/* DetailMovie1.css */
+.fontText {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* Button search */
+.btn__search1 {
+    background: linear-gradient(90deg, #FBBD61 0%, #EC7532 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+}
+.btn__search1 :hover {
+    background: linear-gradient(90deg, #87BCF5 0%, #3863E2 100%);
+}

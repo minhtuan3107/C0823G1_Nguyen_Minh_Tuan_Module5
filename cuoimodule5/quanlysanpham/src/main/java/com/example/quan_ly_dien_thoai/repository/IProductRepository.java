@@ -40,6 +40,4 @@ public interface IProductRepository extends JpaRepository<Product, Integer> {
     @Modifying
     @Query(value = "UPDATE product SET name = :name, date = :date, count = :count, type = :type WHERE id = :id", nativeQuery = true)
     void editProduct(@Param("id") int id, @Param("name") String name, @Param("date") String date, @Param("count") int count, @Param("type") String type);
-
-
 }

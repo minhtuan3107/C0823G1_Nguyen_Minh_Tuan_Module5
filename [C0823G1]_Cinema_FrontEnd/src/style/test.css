@@ -1,0 +1,141 @@
+/*picture big*/
+.mid {
+    float: left;
+    width: 60%;
+    height: 500px;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: black;
+}
+
+.left1 {
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: white;
+}
+
+.right {
+    float: right;
+    width: 20%;
+    height: 500px;
+    background-color: black;
+}
+
+.right1 {
+    float: right;
+    width: 20%;
+    height: 500px;
+    background-color: white;
+}
+
+.video-play-button {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+
+    /* Modal position */
+    /* Modal position */
+}
+
+
+.picture {
+    position: absolute;
+    z-index: 10;
+    top: 51%;
+    left: 12%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 50px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+}
+
+.btn__add {
+    position: relative;
+    background: linear-gradient(90deg, #649FDE 0%, #2B4DB5 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    width: 270px;
+}
+
+.btn__add :hover {
+    background: linear-gradient(90deg, #87BCF5 0%, #3863E2 100%);
+}
+.showtime > a > button {
+    color: black;
+    padding: 6px 20px;
+    position: relative;
+    font-size: 16px;
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.showtime > a > button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #3863E2;
+}
+.active{
+    color: black;
+    padding: 6px 20px;
+    position: relative;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+/* DetailMovie.css */
+.fontText {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn__add :hover {
+    background: linear-gradient(90deg, #87BCF5 0%, #3863E2 100%);
+}
+/* Button search */
+.btn__search {
+    background: linear-gradient(90deg, #FBBD61 0%, #EC7532 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+}
+.btn__search :hover {
+    background: linear-gradient(90deg, #87BCF5 0%, #3863E2 100%);
+}
